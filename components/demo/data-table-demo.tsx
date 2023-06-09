@@ -1,7 +1,7 @@
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"
-import { MoreHorizontal } from "lucide-react"
+import { ArrowUpDown, MoreHorizontal } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -31,7 +31,17 @@ const columns: ColumnDef<Payment>[] = [
   },
   {
     accessorKey: "email",
-    header: "Email",
+    header: ({ column }) => {
+      return (
+        <Button
+          variant="ghost"
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
+          Email
+          <ArrowUpDown className="ml-2 h-4 w-4" />
+        </Button>
+      )
+    },
   },
   {
     accessorKey: "amount",
@@ -93,13 +103,25 @@ const data: Payment[] = [
     id: "728ed52f",
     amount: 100,
     status: "pending",
-    email: "m@example.com",
+    email: "a@example.com",
   },
   {
     id: "3b3c1f2a",
     amount: 200,
     status: "processing",
-    email: "p@example.com",
+    email: "fe@example.com",
+  },
+  {
+    id: "728ed52f",
+    amount: 100,
+    status: "pending",
+    email: "gf@example.com",
+  },
+  {
+    id: "3b3c1f2a",
+    amount: 200,
+    status: "processing",
+    email: "q@example.com",
   },
   {
     id: "728ed52f",
@@ -123,31 +145,19 @@ const data: Payment[] = [
     id: "3b3c1f2a",
     amount: 200,
     status: "processing",
-    email: "p@example.com",
+    email: "w@example.com",
   },
   {
     id: "728ed52f",
     amount: 100,
     status: "pending",
-    email: "m@example.com",
+    email: "t@example.com",
   },
   {
     id: "3b3c1f2a",
     amount: 200,
     status: "processing",
-    email: "p@example.com",
-  },
-  {
-    id: "728ed52f",
-    amount: 100,
-    status: "pending",
-    email: "m@example.com",
-  },
-  {
-    id: "3b3c1f2a",
-    amount: 200,
-    status: "processing",
-    email: "p@example.com",
+    email: "s@example.com",
   },
 ]
 
