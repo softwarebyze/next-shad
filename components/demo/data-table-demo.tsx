@@ -89,7 +89,66 @@ const data: Payment[] = [
     status: "processing",
     email: "p@example.com",
   },
-  // ...
+  {
+    id: "728ed52f",
+    amount: 100,
+    status: "pending",
+    email: "m@example.com",
+  },
+  {
+    id: "3b3c1f2a",
+    amount: 200,
+    status: "processing",
+    email: "p@example.com",
+  },
+  {
+    id: "728ed52f",
+    amount: 100,
+    status: "pending",
+    email: "m@example.com",
+  },
+  {
+    id: "3b3c1f2a",
+    amount: 200,
+    status: "processing",
+    email: "p@example.com",
+  },
+  {
+    id: "728ed52f",
+    amount: 100,
+    status: "pending",
+    email: "m@example.com",
+  },
+  {
+    id: "3b3c1f2a",
+    amount: 200,
+    status: "processing",
+    email: "p@example.com",
+  },
+  {
+    id: "728ed52f",
+    amount: 100,
+    status: "pending",
+    email: "m@example.com",
+  },
+  {
+    id: "3b3c1f2a",
+    amount: 200,
+    status: "processing",
+    email: "p@example.com",
+  },
+  {
+    id: "728ed52f",
+    amount: 100,
+    status: "pending",
+    email: "m@example.com",
+  },
+  {
+    id: "3b3c1f2a",
+    amount: 200,
+    status: "processing",
+    email: "p@example.com",
+  },
 ]
 
 export default function DataTableDemo() {
