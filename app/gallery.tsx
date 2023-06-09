@@ -1,12 +1,12 @@
 import AlertDemo from "@/components/demo/alert-demo"
 import CardDemo from "@/components/demo/card-demo"
-import ProfileForm from "@/components/demo/form-demo"
-import InputDemo from "@/components/demo/input-demo"
-
-import AccordionDemo from "../components/demo/accordion-demo"
-import SelectDemo from "@/components/demo/select-demo"
 import CardWithFormDemo from "@/components/demo/card-with-form-demo"
 import DataTableDemo from "@/components/demo/data-table-demo"
+import ProfileForm from "@/components/demo/form-demo"
+import InputDemo from "@/components/demo/input-demo"
+import SelectDemo from "@/components/demo/select-demo"
+
+import AccordionDemo from "../components/demo/accordion-demo"
 
 export default function Gallery() {
   return (
