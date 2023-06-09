@@ -7,6 +7,7 @@ import InputDemo from "@/components/demo/input-demo"
 import SelectDemo from "@/components/demo/select-demo"
 
 import AccordionDemo from "../components/demo/accordion-demo"
+import DropdownMenuDemo from "@/components/demo/dropdown-menu-demo"
 
 export default function Gallery() {
   return (
@@ -39,6 +40,10 @@ export default function Gallery() {
           <div className="m-2 flex flex-col">
             <SelectDemo />
             <h2 className="m-2 text-center">Select</h2>
+          </div>
+          <div className="m-2 flex flex-col">
+            <DropdownMenuDemo />
+            <h2 className="m-2 text-center">Dropdown Menu</h2>
           </div>
           <div className="m-2 flex flex-col">
             <CardWithFormDemo />
