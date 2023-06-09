@@ -11,7 +11,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/shadcn/ui",
+    github: "https://github.com/softwarebyze/next-shad",
     docs: "https://ui.shadcn.com",
   },
 }
