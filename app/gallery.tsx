@@ -11,7 +11,7 @@ export default function Gallery() {
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Gallery
         </h1>
-        <div className="container grid gap-4">
+        <div className="flex flex-wrap gap-4">
           <div className="m-2 flex flex-col">
             <AccordionDemo />
             <h2 className="m-2 text-center">Accordion</h2>
