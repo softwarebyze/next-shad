@@ -1,4 +1,5 @@
-import AccordionDemo from "./demo/accordion-demo"
+import AlertDemo from "@/components/demo/alert-demo"
+import AccordionDemo from "../components/demo/accordion-demo"
 
 export default function Gallery() {
   return (
@@ -8,9 +9,13 @@ export default function Gallery() {
           Gallery
         </h1>
         <div className="flex gap-4">
-          <div className="m-2 flex flex-col text-center">
+          <div className="m-2 flex flex-col">
             <AccordionDemo />
-            <h2 className="m-2">Accordion</h2>
+            <h2 className="m-2 text-center">Accordion</h2>
+          </div>
+          <div className="m-2 flex flex-col">
+            <AlertDemo />
+            <h2 className="m-2 text-center">Alert</h2>
           </div>
         </div>
       </div>

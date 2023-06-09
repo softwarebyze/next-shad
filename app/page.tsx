@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
-import Gallery from "@/components/gallery"
+import Gallery from "@/app/gallery"
 
 export default function IndexPage() {
   return (
