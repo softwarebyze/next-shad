@@ -3,6 +3,7 @@ import ProfileForm from "@/components/demo/form-demo"
 import InputDemo from "@/components/demo/input-demo"
 
 import AccordionDemo from "../components/demo/accordion-demo"
+import CardDemo from "@/components/demo/card-demo"
 
 export default function Gallery() {
   return (
@@ -27,6 +28,10 @@ export default function Gallery() {
           <div className="m-2 flex flex-col">
             <ProfileForm />
             <h2 className="m-2 text-center">Form</h2>
+          </div>
+          <div className="m-2 flex flex-col">
+            <CardDemo />
+            <h2 className="m-2 text-center">Card</h2>
           </div>
         </div>
       </div>
