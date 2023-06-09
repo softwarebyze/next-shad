@@ -1,7 +1,8 @@
 import AlertDemo from "@/components/demo/alert-demo"
-import AccordionDemo from "../components/demo/accordion-demo"
-import InputDemo from "@/components/demo/input-demo"
 import ProfileForm from "@/components/demo/form-demo"
+import InputDemo from "@/components/demo/input-demo"
+
+import AccordionDemo from "../components/demo/accordion-demo"
 
 export default function Gallery() {
   return (
