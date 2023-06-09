@@ -1,13 +1,15 @@
 import AlertDemo from "@/components/demo/alert-demo"
 import CardDemo from "@/components/demo/card-demo"
 import CardWithFormDemo from "@/components/demo/card-with-form-demo"
+import CommandDemo from "@/components/demo/command-demo"
 import DataTableDemo from "@/components/demo/data-table-demo"
+import DropdownMenuDemo from "@/components/demo/dropdown-menu-demo"
 import ProfileForm from "@/components/demo/form-demo"
 import InputDemo from "@/components/demo/input-demo"
 import SelectDemo from "@/components/demo/select-demo"
 
 import AccordionDemo from "../components/demo/accordion-demo"
-import DropdownMenuDemo from "@/components/demo/dropdown-menu-demo"
+import { ComboboxDemo } from "@/components/ui/combobox"
 
 export default function Gallery() {
   return (
@@ -44,6 +46,14 @@ export default function Gallery() {
           <div className="m-2 flex flex-col">
             <DropdownMenuDemo />
             <h2 className="m-2 text-center">Dropdown Menu</h2>
+          </div>
+          <div className="m-2 flex flex-col">
+            <CommandDemo />
+            <h2 className="m-2 text-center">Command</h2>
+          </div>
+          <div className="m-2 flex flex-col">
+            <ComboboxDemo />
+            <h2 className="m-2 text-center">Combobox</h2>
           </div>
           <div className="m-2 flex flex-col">
             <CardWithFormDemo />
