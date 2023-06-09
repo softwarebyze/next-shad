@@ -162,9 +162,5 @@ const data: Payment[] = [
 ]
 
 export default function DataTableDemo() {
-  return (
-    <div className="container mx-auto py-10">
-      <DataTable columns={columns} data={data} />
-    </div>
-  )
+  return <DataTable columns={columns} data={data} />
 }
